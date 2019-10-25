@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="walt-businessContract" />
+        <module name="walt-businessImpl" />
+        <module name="walt-model" />
+        <module name="walt-batch" />
+        <module name="walt-consumer" />
+        <module name="walt-webapp" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="walt-batch" options="-parameters" />
+      <module name="walt-businessContract" options="-parameters" />
+      <module name="walt-businessImpl" options="-parameters" />
+      <module name="walt-consumer" options="-parameters" />
+      <module name="walt-model" options="-parameters" />
+      <module name="walt-webapp" options="-parameters" />
+    </option>
+  </component>
+</project>
