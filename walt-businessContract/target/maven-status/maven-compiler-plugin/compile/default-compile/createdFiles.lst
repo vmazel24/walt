@@ -1,1 +1,3 @@
 org/vamos/joy/businessContract/App.class
+org/vamos/joy/businessContract/manager/ManagerFactory.class
+org/vamos/joy/businessContract/manager/CryptoManager.class

@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="walt-businessContract" />
         <module name="walt-businessImpl" />
+        <module name="walt-businessContract" />
         <module name="walt-model" />
-        <module name="walt-batch" />
-        <module name="walt-consumer" />
         <module name="walt-webapp" />
+        <module name="walt-consumer" />
+        <module name="walt-batch" />
+        <module name="walt-technical" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +23,7 @@
       <module name="walt-businessImpl" options="-parameters" />
       <module name="walt-consumer" options="-parameters" />
       <module name="walt-model" options="-parameters" />
+      <module name="walt-technical" options="-parameters" />
       <module name="walt-webapp" options="-parameters" />
     </option>
   </component>

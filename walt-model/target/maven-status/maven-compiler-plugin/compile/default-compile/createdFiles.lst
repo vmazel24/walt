@@ -1,1 +1,3 @@
 org/vamos/joy/model/App.class
+org/vamos/joy/model/exception/NotFoundException.class
+org/vamos/joy/model/Crypto.class

@@ -20,6 +20,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spring-version>5.2.3.RELEASE</spring-version>
   </properties>
 
   <modules>
@@ -29,6 +30,7 @@
     <module>walt-businessImpl</module>
     <module>walt-consumer</module>
     <module>walt-model</module>
+    <module>walt-technical</module>
   </modules>
 
   <!-- =============================================================== -->
@@ -67,6 +69,11 @@
         <artifactId>walt-model</artifactId>
         <version>1.0-SNAPSHOT</version>
       </dependency>
+      <dependency>
+        <groupId>org.vamos.joy</groupId>
+        <artifactId>walt-technical</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
 
       <!-- ===== Bibliothèques tierces ===== -->
 
@@ -84,6 +91,23 @@
         <artifactId>spring-boot-starter-test</artifactId>
         <scope>test</scope>
       </dependency>
+
+      <!-- Spring Boot dependencies -->
+      <!--<dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-framework-bom</artifactId>
+        <version>${spring.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>-->
+
+      <!-- JSR-330 -->
+      <dependency>
+        <groupId>javax.inject</groupId>
+        <artifactId>javax.inject</artifactId>
+        <version>1</version>
+      </dependency>
+
 
     </dependencies>
   </dependencyManagement>

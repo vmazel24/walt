@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.vamos.joy.consumer.AppTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.vamos.joy.consumer.AppTest" time="0.054" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk1.8.0_212/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/vico/Documents/Projets/Walt/walt/walt-consumer/target/surefire/surefirebooter5881537366580535506.jar /home/vico/Documents/Projets/Walt/walt/walt-consumer/target/surefire 2019-10-25T18-08-19_149-jvmRun1 surefire6164621057376218483tmp surefire_31413962501536332952tmp"/>
+    <property name="sun.java.command" value="/home/vico/Documents/Projets/Walt/walt/walt-consumer/target/surefire/surefirebooter4093345661716082944.jar /home/vico/Documents/Projets/Walt/walt/walt-consumer/target/surefire 2020-01-17T16-28-02_662-jvmRun1 surefire2693103924020664986tmp surefire_38831089145086102091tmp"/>
     <property name="surefire.test.class.path" value="/home/vico/Documents/Projets/Walt/walt/walt-consumer/target/test-classes:/home/vico/Documents/Projets/Walt/walt/walt-consumer/target/classes:/home/vico/Documents/Projets/Walt/walt/walt-model/target/walt-model-1.0-SNAPSHOT.jar:/home/vico/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/vico"/>
@@ -30,13 +30,13 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/vico/Documents/Projets/Walt/walt/walt-consumer/target/surefire/surefirebooter5881537366580535506.jar"/>
+    <property name="surefire.real.class.path" value="/home/vico/Documents/Projets/Walt/walt/walt-consumer/target/surefire/surefirebooter4093345661716082944.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/jdk1.8.0_212/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_212/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_212/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.8.0_212/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_212/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_212/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_212/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_212/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_212-b10"/>
     <property name="user.name" value="vico"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.0.0-27-generic"/>
+    <property name="os.version" value="5.3.0-26-generic"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/jdk1.8.0_212/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
@@ -59,5 +59,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testApp" classname="org.vamos.joy.consumer.AppTest" time="0.007"/>
+  <testcase name="testApp" classname="org.vamos.joy.consumer.AppTest" time="0.014"/>
 </testsuite>

@@ -1,2 +1,5 @@
+org/vamos/joy/webapp/bootstrap/SpringConfiguration.class
 org/vamos/joy/webapp/SampleWebApp.class
 org/vamos/joy/webapp/web/WelcomeController.class
+org/vamos/joy/webapp/web/AbstractController.class
+org/vamos/joy/webapp/web/CryptoController.class

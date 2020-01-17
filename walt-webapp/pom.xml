@@ -35,6 +35,14 @@
       <groupId>org.vamos.joy</groupId>
       <artifactId>walt-businessContract</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.vamos.joy</groupId>
+      <artifactId>walt-businessImpl</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.vamos.joy</groupId>
+      <artifactId>walt-technical</artifactId>
+    </dependency>
 
     <!-- ===== Bibliothèques tierces ===== -->
 
@@ -52,6 +60,10 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+    </dependency>
 
     <!-- JUnit -->
     <dependency>
@@ -59,6 +71,12 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
+    </dependency>
+
+    <!-- JSR-330 -->
+    <dependency>
+      <groupId>javax.inject</groupId>
+      <artifactId>javax.inject</artifactId>
     </dependency>
   </dependencies>
 

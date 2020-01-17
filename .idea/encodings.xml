@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/walt-businessImpl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/walt-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/walt-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/walt-technical" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/walt-webapp" charset="UTF-8" />
   </component>
 </project>

@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cc994-e892-4fdc-9863-04ff8b7f7d65" name="Default Changelist" comment="" />
+    <list default="true" id="a07cc994-e892-4fdc-9863-04ff8b7f7d65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/walt-businessContract/src/main/java/org/vamos/joy/businessContract/manager/CryptoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/walt-businessContract/src/main/java/org/vamos/joy/businessContract/manager/ManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/walt-businessImpl/src/main/java/org/vamos/joy/businessImpl/manager/CryptoManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/walt-businessImpl/src/main/java/org/vamos/joy/businessImpl/manager/ManagerFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/walt-model/src/main/java/org/vamos/joy/model/Crypto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/walt-model/src/main/java/org/vamos/joy/model/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/walt-webapp/src/main/java/org/vamos/joy/webapp/bootstrap/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/walt-webapp/src/main/java/org/vamos/joy/webapp/web/AbstractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/walt-webapp/src/main/java/org/vamos/joy/webapp/web/CryptoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/walt-webapp/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-batch/src/main/java/org/vamos/joy/batch/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/walt-batch/src/main/java/org/vamos/joy/batch/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-batch/target/surefire-reports/TEST-org.vamos.joy.batch.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/walt-batch/target/surefire-reports/TEST-org.vamos.joy.batch.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-batch/target/surefire-reports/org.vamos.joy.batch.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/walt-batch/target/surefire-reports/org.vamos.joy.batch.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-batch/target/walt-batch-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/walt-batch/target/walt-batch-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessContract/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessContract/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessContract/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessContract/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessContract/target/surefire-reports/TEST-org.vamos.joy.businessContract.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessContract/target/surefire-reports/TEST-org.vamos.joy.businessContract.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessContract/target/surefire-reports/org.vamos.joy.businessContract.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessContract/target/surefire-reports/org.vamos.joy.businessContract.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessContract/target/walt-businessContract-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessContract/target/walt-businessContract-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessImpl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessImpl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessImpl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessImpl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessImpl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessImpl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessImpl/target/surefire-reports/TEST-org.vamos.joy.businessImpl.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessImpl/target/surefire-reports/TEST-org.vamos.joy.businessImpl.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessImpl/target/surefire-reports/org.vamos.joy.businessImpl.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessImpl/target/surefire-reports/org.vamos.joy.businessImpl.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-businessImpl/target/walt-businessImpl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/walt-businessImpl/target/walt-businessImpl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-consumer/target/surefire-reports/TEST-org.vamos.joy.consumer.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/walt-consumer/target/surefire-reports/TEST-org.vamos.joy.consumer.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-consumer/target/surefire-reports/org.vamos.joy.consumer.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/walt-consumer/target/surefire-reports/org.vamos.joy.consumer.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-consumer/target/walt-consumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/walt-consumer/target/walt-consumer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/walt-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/walt-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-model/target/surefire-reports/TEST-org.vamos.joy.model.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/walt-model/target/surefire-reports/TEST-org.vamos.joy.model.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-model/target/surefire-reports/org.vamos.joy.model.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/walt-model/target/surefire-reports/org.vamos.joy.model.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-model/target/walt-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/walt-model/target/walt-model-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/walt-webapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-webapp/src/main/java/org/vamos/joy/webapp/web/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/walt-webapp/src/main/java/org/vamos/joy/webapp/web/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-webapp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/walt-webapp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-webapp/target/classes/org/vamos/joy/webapp/web/WelcomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/walt-webapp/target/classes/org/vamos/joy/webapp/web/WelcomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/walt-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/walt-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-webapp/target/walt-webapp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/walt-webapp/target/walt-webapp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walt-webapp/target/walt-webapp-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/walt-webapp/target/walt-webapp-1.0-SNAPSHOT.jar.original" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +57,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -24,6 +74,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1ShXkYl4HIfjkO5PevBb9LNuiKd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -131,5 +189,18 @@
       <updated>1572016944477</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
